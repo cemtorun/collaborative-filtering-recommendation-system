@@ -10,6 +10,8 @@ In the newer, narrower sense, collaborative filtering is a method of making auto
 
 The data set used was taken from MovieLens. It contains 100,000 ratings from a total of 1000 users on 1700 movies. 
 
+I will be using the Surprise library. Surprise is a Python scikit building and analyzing recommender systems. For more about the library and its documentation vist: http://surpriselib.com.
+
 
 
 
