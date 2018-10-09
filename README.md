@@ -16,8 +16,9 @@ Surprise is awesome because within a few lines we are able to do cross validatio
 
 Since the whole purpose of this project is to predict how a user will rate a movie given data on individuals who have watched that movie and similar movies like the given user, I will use root mean squared error (RMSE) and with mean squared error (MSE) to determine the difference. 
 
-From there I was able to predict rating to a with to a pretty well degree. I also attempted varying the number of folds to see the impact on the results and the difference was not very confirming of any correlation. This is something I will explore in the future.
+I also included different forms of the algorithm utilizing SVD vs NMF to compare the differences.
 
+From there I was able to predict rating to a with to a pretty well degree. I also attempted varying the number of folds to see the impact on the results and the difference was not very confirming of any correlation. This is something I will explore in the future.
 
 Note: this was one of my first projects in the space so there was a similar walkthrough through a previous tutorial that I did myself learning how the individual did it and writing my own documentation and learning throughout the process.
 
