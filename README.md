@@ -17,6 +17,6 @@ Surprise is awesome because within a few lines we are able to do cross validatio
 
 
 
-Note: this was one of my first projects in the space so this was a walkthrough through a previous tutorial that I did myself learning how the individual did it!
+Note: this was one of my first projects in the space so there was a similar walkthrough through a previous tutorial that I did myself learning how the individual did it and writing my own documentation and learning throughout the process.
 
 
