@@ -14,6 +14,8 @@ I will be using the Surprise library. Surprise is a Python scikit building and a
 
 Surprise is awesome because within a few lines we are able to do cross validation of the entire data set. Cross validation is when we take our training data and split it into "folds". To give an example, if we split the data in to four folds, we will use folds 1, 2, and 3, in the training set to train on the 4th fold that is also part of the training set. Then we would use folds 2-4 and train it on the 1st fold, etc. Then we average the error of the folds. We can then choose the model that provides us the lowest mean error. This allows us to test different models while also maximizing the size of the testing and training data sets.
 
+Since the whole purpose of this project is to predict how a user will rate a movie given data on individuals who have watched that movie and similar movies like the given user, I will use root mean squared error (RMSE) to determine the difference.
+
 
 
 
