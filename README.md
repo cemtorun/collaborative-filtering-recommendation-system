@@ -12,6 +12,8 @@ The data set used was taken from MovieLens. It contains 100,000 ratings from a t
 
 I will be using the Surprise library. Surprise is a Python scikit building and analyzing recommender systems. For more about the library and its documentation vist: http://surpriselib.com.
 
+Surprise is awesome because within a few lines we are able to do cross validation of the entire data set. Cross validation is when we take our training data and split it into "folds". To give an example, if we split the data in to four folds, we will use folds 1, 2, and 3, in the training set to train on the 4th fold that is also part of the training set. Then we would use folds 2-4 and train it on the 1st fold, etc. Then we average the error of the folds. We can then choose the model that provides us the lowest mean error. This allows us to test different models while also maximizing the size of the testing and training data sets.
+
 
 
 
